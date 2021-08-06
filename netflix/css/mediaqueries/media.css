@@ -1,0 +1,55 @@
+@media screen and (max-width:800px){
+  header .logo_text {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  header .contenedor {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .movie-principal {
+    font-size: 14px;
+  }
+
+  .movie-principal-description {
+    max-width: 100%;
+  }
+
+  .movie-principal-btn-play {
+    margin-bottom: 10px;
+  }
+
+  .overlay {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .movie-recommended .contenedor-carousel {
+    overflow: visible;
+  }
+
+  .movie-recommended .contenedor-carousel .carousel {
+    display: flex;
+    gap: 20px;
+
+    flex-wrap: wrap;
+  }
+
+  .movie-recommended .indicadores,
+  .movie-recommended #arrow-left,
+  .movie-recommended #arrow-right{
+    display: none;
+  }
+
+  .movie-recommended .contenedor-carousel .carousel .movie {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:468px){
+  .movie-recommended .contenedor-carousel .carousel .movie {
+    width: 45% !important;
+  }
+}

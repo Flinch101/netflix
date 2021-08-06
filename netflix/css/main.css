@@ -1,0 +1,48 @@
+/* Import */
+  /* CSS ARCHIVOS */
+  @import url('normalize.css');
+  @import url('header/header.css');
+  @import url('main/main.css');
+  @import url('carousel/carousel.css');
+  @import url('overlay/overlay.css');
+  @import url('mediaqueries/media.css');
+
+  /* TIPO DE FUENTE */
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap');
+
+  /* ICONS */
+  @import url('fontello.css');
+
+/* Variables */
+:root {
+  --rojo: #e50914;
+  --fondo: #141414;
+}
+
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body { 
+  background: var(--fondo);
+  font-family: 'Open Sans',sans-serif;
+}
+
+/* Contenedor Styles */
+.contenedor {
+  width: 90%;
+  margin: auto;
+}
+
+/* Separador */
+.separador {
+  width: 80%;
+  background: rgb(58, 58, 58);
+  height: 1px;
+  border-radius: 10px;
+  margin: 10px auto;
+}
